@@ -1,0 +1,16 @@
+h1 {
+    color:rgb(243, 17, 17);
+    text-align: center;
+}
+
+ul {
+    text-align:right;
+}
+
+.main {
+    color: rgb(15, 150, 200)
+}
+
+#text {
+    color: rgb(15, 200, 150)
+}
