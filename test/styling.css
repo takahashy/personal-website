@@ -14,3 +14,11 @@ ul {
 #text {
     color: rgb(15, 200, 150)
 }
+
+.box {
+    margin: 0.1vw;
+    box-sizing: border-box;
+    font-size: 0.2vw;
+    padding: 0.1vw;
+    border: 10px rgb(196, 231, 20)
+}
