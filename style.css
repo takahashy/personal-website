@@ -5,8 +5,22 @@ html {
   }
 
 body {
-    background: #081b29;
+    background: linear-gradient(260deg, #ff4c68, #ef8172,  #00bfff);
+    background-size: 150% 1000%;
+    animation: gradient-animation 14s ease infinite;
 }
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
 
 .logo{
     color: #ededed;
@@ -21,7 +35,7 @@ body {
     height: 100vh;
     background: url("./images/Me.jpeg") no-repeat;
     background-size: cover;
-    /* background-attachment: fixed; Fixed background for scrolling */
+    /* background-attachment: fixed;  */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
 }
