@@ -1,0 +1,59 @@
+/* ALL PAGES */
+html {
+    height: 100%;
+    /* font-family: sans-serif; */
+  }
+
+body {
+    background: #081b29;
+}
+
+.logo{
+    color: #ededed;
+    font-weight:bold;
+}
+
+.my-title {
+    color: #00abf0;
+}
+
+.home {
+    height: 100vh;
+    background: url("./images/Me.jpeg") no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; Fixed background for scrolling */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+img.icon {
+    height: 2.4rem;
+}
+  
+.nav-item .icon-footer {
+    height: 2.0rem;
+    padding-top: 20%;
+    margin: 0 5px;
+}
+  
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+  
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.bg-light {
+    margin-left: 2rem;
+    border-radius: 20%;
+} 
+
+#footer.container {
+    margin: 0;
+}
