@@ -68,6 +68,7 @@ img.icon {
     border-radius: 20%;
 } 
 
-#footer.container {
+#footer {
+    background-color: #000000;
     margin: 0;
 }
